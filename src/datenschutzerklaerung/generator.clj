@@ -3,6 +3,8 @@
    [clojure.java.io :as io]))
 
 
+;; https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html#kopierbares-html-ihrer-datenschutzerklaerung
+
 (defn baustein
   ([resource-name]
    (baustein resource-name nil))
